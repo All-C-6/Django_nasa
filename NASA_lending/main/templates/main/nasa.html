@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nasa lending</title>
+  <!-- Подключение стилей Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #0A121E;
+      color: white;
+      padding: 10px;
+      z-index: 1;
+    }
+
+    #main_header_container {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+    }
+
+    #logo {
+      font-size: 24px;
+    }
+
+    #nav a {
+      color: white;
+      font-size: 16px;
+      margin-right: 25px;
+    }
+    #main {
+      padding-top: 60px;
+    }
+
+    #first_block {
+      text-align: center;
+      height: 80vh;
+    }
+
+    #about {
+      align-items: center;
+      width: 750px;
+    }
+
+    #about p {
+      font-size: 18px;
+    }
+
+    #about h1 {
+      font-weight: bold;
+      font-size: 56px;
+    }
+
+    #second_block {
+      height: 80vh;
+    }
+  </style>
+</head>
+<body>
+  <!-- Хедер -->
+  <div id="header">
+    <div id="main_header_container" class="container d-flex justify-content-between align-items-center">
+      <div id="logo">Логотип</div>
+      <div id="nav">
+        <a href="#strong_points">ПРЕИМУЩЕСТВА</a>
+        <a href="#photos">ФОТОГРАФИИ</a>
+      </div>
+      <button type="button" class="btn btn-danger">ВХОД</button>
+    </div>
+  </div>
+  <!-- Основное содержимое -->
+  <div id="main">
+    <div class="column">
+      <!-- Первый блок -->
+      <div id="first_block" class="column bg-white my-3">
+        <div id="about" class="container">
+          <h1>Космическое агентство</h1>
+          <p>Национальное управление по аэронавтике и исследованию космического пространства —
+            ведомство, относящееся к федеральному правительству США и подчиняющееся
+            непосредственно президенту США.</p>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+          </div>
+          <div class="row">
+
+          </div>
+        </div>
+
+
+      </div>
+      <!-- Второй блок -->
+      <div id="second_block" class="bg-dark my-3">
+        <h2>Второй блок</h2>
+        <p>Текст второго блока</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
